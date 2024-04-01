@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title data-i18n="extensionName"></title>
+  <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+</head>
+<body>
+  <div class="container mt-3">
+    <h1 data-i18n="extensionName"></h1>
+    <div class="mb-3">
+      <button id="refreshButton" class="btn btn-primary" data-i18n="refreshTabs"></button>
+    </div>
+    <div id="tabList" class="mb-3" style="min-height: 200px;"></div>
+    <div id="screenshotPreview" class="screenshot-preview"></div>
+    <div id="promptButtons" class="mb-3">
+      <div class="row">
+        <div class="col-md-12" id="promptButtonsTop"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" id="promptButtonsBottom"></div>
+      </div>
+    </div>
+    <h5 data-i18n="response"></h5>
+    <div id="response" class="card">
+      <div class="card-body">
+        <div id="responseContent"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="tabList.js"></script>
+  <script type="module" src="promptManager.js"></script>
+  <script type="module" src="responseHandler.js"></script>
+  <script type="module" src="newtab.js"></script>
+</body>
+</html>

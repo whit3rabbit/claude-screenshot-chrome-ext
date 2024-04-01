@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title data-i18n="optionsTitle"></title>
+  <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .api-key-container {
+      display: flex;
+      align-items: center;
+      justify-content: start; /* Aligns items to the start of the container */
+    }
+    .api-key-input {
+      max-width: 300px; /* Set a maximum width for the input */
+      width: 100%; /* Allows the input to be responsive within the max-width */
+      font-family: monospace;
+    }
+    .eye-icon {
+      cursor: pointer;
+      margin-left: 5px;
+    }
+    .prompt-manager {
+      margin-top: 20px;
+    }
+    .prompt-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .prompt-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .prompt-input {
+      flex: 1 1 50%; /* Adjust to take up 50% of the available width */
+      margin-right: 10px;
+    }
+    .delete-button {
+      margin-left: 10px;
+    }
+    .options-container {
+      margin: 20px auto; /* Center the container and add margin */
+      padding: 0 15px; /* Add some padding on the sides */
+      max-width: 800px; /* Adjust maximum width as needed */
+    }
+  </style>
+</head>
+<body>
+  <div class="options-container"> 
+  <h1 data-i18n="optionsTitle"></h1>
+  <div class="api-key-container">
+    <input type="text" id="apiKey" name="apiKey" class="api-key-input">
+    <span id="eyeIcon" class="eye-icon">
+      <i class="fa fa-eye" style="font-size:24px"></i>
+    </span>
+  </div>
+  <p></p>
+  <button id="saveButton" class="btn btn-primary" data-i18n="saveApiKey"></button>
+  <button id="deleteButton" class="btn btn-danger" style="display: none;" data-i18n="deleteApiKey"></button>
+  <p>
+    <div class="prompt-manager">
+      <h2 data-i18n="promptManager"></h2>
+      <ul id="promptList" class="prompt-list">
+        <!-- Prompt items will be dynamically added here -->
+        <li class="prompt-item">
+          <input type="text" class="prompt-input">
+          <button class="delete-button">Delete</button>
+        </li>
+      </ul>
+      <button id="addPromptButton" class="btn btn-secondary" data-i18n="addPrompt"></button>
+      <button id="savePromptsButton" class="btn btn-success" data-i18n="savePrompts"></button>
+    </div>
+  </div>
+  </p>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

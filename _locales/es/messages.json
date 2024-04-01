@@ -1,0 +1,86 @@
+{
+  "copyResponse": {
+    "message": "Copiar respuesta"
+  },
+  "enterPrompt": {
+    "message": "Ingresa un mensaje"
+  },
+  "responseCopied": {
+    "message": "¡Respuesta copiada al portapapeles!"
+  },
+  "apiError": {
+    "message": "Se produjo un error al procesar la solicitud. Por favor, verifica tu clave API y vuelve a intentarlo."
+  },
+  "invalidApiKey": {
+    "message": "Clave API inválida. Por favor, ingresa una clave API válida en las opciones de la extensión."
+  },
+  "screenshotError": {
+    "message": "Error al capturar la captura de pantalla. Por favor, inténtalo de nuevo."
+  },
+  "noApiKey": {
+    "message": "No se encontró una clave API. Por favor, ingresa tu clave API en las opciones de la extensión."
+  },
+  "loadingMessage": {
+    "message": "Cargando..."
+  },
+  "responseHistory": {
+    "message": "Historial de respuestas"
+  },
+  "noResponses": {
+    "message": "No se encontraron respuestas."
+  },
+  "clearHistory": {
+    "message": "Borrar historial"
+  },
+  "viewResponseHistory": {
+    "message": "Ver historial de respuestas"
+  },
+  "addCustomPrompt": {
+    "message": "Agregar mensaje personalizado"
+  },
+  "customPromptAdded": {
+    "message": "¡Mensaje personalizado agregado con éxito!"
+  },
+  "deleteCustomPrompt": {
+    "message": "Eliminar mensaje personalizado"
+  },
+  "refreshTabs": {
+    "message": "Actualizar pestañas"
+  },
+  "sendFeedback": {
+    "message": "Enviar comentarios"
+  },
+  "imageAnalysis": {
+    "message": "¿Qué estoy viendo en esta imagen?"
+  },
+  "questionAnswering": {
+    "message": "¿Cuál es la respuesta a esta pregunta?"
+  },
+  "codeAnalysis": {
+    "message": "Analiza este código y proporciona comentarios"
+  },
+  "defaultPrompts": {
+    "message": "¿Qué estoy viendo en esta imagen?;¿Cuál es la respuesta a esta pregunta?;Analiza este código y proporciona comentarios"
+  },
+  "response": {
+    "message": "Respuesta"
+  },
+  "optionsTitle": {
+    "message": "Opciones de la extensión Claude Haiku"
+  },
+  "saveApiKey": {
+    "message": "Guardar clave API"
+  },
+  "deleteApiKey": {
+    "message": "Eliminar clave API"
+  },
+  "promptManager": {
+    "message": "Administrador de mensajes"
+  },
+  "addPrompt": {
+    "message": "Agregar mensaje"
+  },
+  "savePrompts": {
+    "message": "Guardar mensajes"
+  }
+}

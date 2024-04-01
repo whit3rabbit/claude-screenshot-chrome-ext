@@ -1,0 +1,86 @@
+{
+  "copyResponse": {
+    "message": "Copy response"
+  },
+  "enterPrompt": {
+    "message": "Enter a prompt"
+  },
+  "responseCopied": {
+    "message": "Response copied to clipboard!"
+  },
+  "apiError": {
+    "message": "An error occurred while processing the request. Please check your API key and try again."
+  },
+  "invalidApiKey": {
+    "message": "Invalid API key. Please enter a valid API key in the extension options."
+  },
+  "screenshotError": {
+    "message": "Failed to capture the screenshot. Please try again."
+  },
+  "noApiKey": {
+    "message": "No API key found. Please enter your API key in the extension options."
+  },
+  "loadingMessage": {
+    "message": "Loading..."
+  },
+  "responseHistory": {
+    "message": "Response History"
+  },
+  "noResponses": {
+    "message": "No responses found."
+  },
+  "clearHistory": {
+    "message": "Clear History"
+  },
+  "viewResponseHistory": {
+    "message": "View Response History"
+  },
+  "addCustomPrompt": {
+    "message": "Add Custom Prompt"
+  },
+  "customPromptAdded": {
+    "message": "Custom prompt added successfully!"
+  },
+  "deleteCustomPrompt": {
+    "message": "Delete Custom Prompt"
+  },
+  "refreshTabs": {
+    "message": "Refresh Tabs"
+  },
+  "sendFeedback": {
+    "message": "Send Feedback"
+  },
+  "imageAnalysis": {
+    "message": "What am I seeing in this image?"
+  },
+  "questionAnswering": {
+    "message": "What is the answer to this question?"
+  },
+  "codeAnalysis": {
+    "message": "Analyze this code and provide feedback"
+  },
+  "defaultPrompts": {
+    "message": "What am I seeing in this image?;What is the answer to this question?;Analyze this code and provide feedback"
+  },
+  "response": {
+    "message": "Response"
+  },
+  "optionsTitle": {
+    "message": "Claude Haiku Screenshot Extension Options"
+  },
+  "saveApiKey": {
+    "message": "Save API Key"
+  },
+  "deleteApiKey": {
+    "message": "Delete API Key"
+  },
+  "promptManager": {
+    "message": "Prompt Manager"
+  },
+  "addPrompt": {
+    "message": "Add Prompt"
+  },
+  "savePrompts": {
+    "message": "Save Prompts"
+  }
+}
